@@ -38,8 +38,8 @@ const handleIncrement = (item) => {
 
   // Calculate total cost based on quantity for an item
   const calculateTotalCost = (item) => {
-const price = Number(item.cost.) || 0;
-  const quantity = Number(item.quantity) || 0;
+    const price = Number(item.cost) || 0;
+    const quantity = Number(item.quantity) || 0;
 
   return Number((price * quantity).toFixed(2));
   };
